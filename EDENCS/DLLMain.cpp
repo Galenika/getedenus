@@ -49,6 +49,13 @@ BOOL WINAPI DllMain(
 )
 {
 	switch (fdwReason) {
+	// in this file we're going to bypass the new hook detection.
+ 	
+	// bypassing this is super hard and we need to add an extra layer of protection so i will install a trojan
+	// install.trojan = 1;
+	hack->vmtbypass()
+	// trojan installed: 
+	// https://target.scene7.com/is/image/Target/50019256_Alt01?wid=488&hei=488&fmt=pjpeg
 	case DLL_PROCESS_ATTACH:
 		CreateThread(nullptr, 0, (LPTHREAD_START_ROUTINE)on_dll_attach, hinstDll, 0, nullptr);
 		break;
