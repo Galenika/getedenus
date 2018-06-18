@@ -1,15 +1,4 @@
-
-// *********************************
-// *             EDEN              *
-// *           Solutions           *
-// *********************************
-// *           RESOLVER			   *
-// *********************************
-// *		Needs an overhaul      *
-// *********************************
-// *		Pure bruteforce		   *
-// *			action			   *
-// *********************************
+hacker hacker hacker hacker
 
 
 #pragma once
@@ -249,11 +238,11 @@ void Resolver3()
 						switch (Globals::missedshots % 3)
 						{
 						case 1: 
-							entity->GetEyeAngles()->y = entity->GetLowerBodyYaw() + 90.f;
+							hackk->GetEyeAngles()->y = entity->GetLowerBodyYaw() + 90.f;
 						case 2:
-							entity->GetEyeAngles()->y = entity->GetLowerBodyYaw() - 90.f;
+							hackk->GetEyeAngles()->y = entity->GetLowerBodyYaw() - 90.f;
 						case 3:
-							entity->GetEyeAngles()->y = entity->GetLowerBodyYaw() + 180.f;
+							hackk->GetEyeAngles()->y = entity->GetLowerBodyYaw() + 180.f;
 						}
 					}
 				}
